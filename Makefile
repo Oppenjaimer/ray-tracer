@@ -5,7 +5,7 @@ BIN_DIR = bin
 TARGET = $(BIN_DIR)/main.out
 
 CC = gcc
-LIBS = 
+LIBS = -lm
 CFLAGS = -std=c11 -Wall -Wextra -pedantic -I$(INC_DIR)
 
 SRC_FILES = $(wildcard $(SRC_DIR)/*.c)
